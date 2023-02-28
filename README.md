@@ -1,3 +1,11 @@
+# Spotify Clone App
+
+### Spotify web page that can be seen by unregistered users made with Styled components, React.
+
+- Responsive & mobile-friendly.
+- Easy to build and use.
+- Live Demo: https://frabjous-hamster-d9726e.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
