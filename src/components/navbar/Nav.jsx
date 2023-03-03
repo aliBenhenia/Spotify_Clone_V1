@@ -1,7 +1,7 @@
 import React from 'react';
 import { BarElement } from './styles';
 import { useContext } from 'react';
-import {Mycontext} from "/Users/abenheni/Desktop/spotify_clone_v1/src/context/Provider";
+import {Mycontext} from "/Users/abenheni/Desktop/Spotify_Clone_V1/src/context/Provider.jsx";
 export default function Nav({grid}) {
   const {nav} = useContext(Mycontext);
   return (
