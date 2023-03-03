@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/spotify_clone_v1/static/css/main.c2cab247.css",
+    "main.js": "/spotify_clone_v1/static/js/main.352fc042.js",
+    "static/media/p3.jpg": "/spotify_clone_v1/static/media/p3.ec92c75afa319ab2753f.jpg",
+    "static/media/p1.jpg": "/spotify_clone_v1/static/media/p1.f5bb62523f3597a2ccf4.jpg",
+    "static/media/p4.jpg": "/spotify_clone_v1/static/media/p4.ae1eff4b8b0823c13897.jpg",
+    "static/media/p5.jpg": "/spotify_clone_v1/static/media/p5.93ca4ea9dbb7931b7715.jpg",
+    "static/media/p8.jpg": "/spotify_clone_v1/static/media/p8.99c54b764d3322e5cf35.jpg",
+    "static/media/p7.jpg": "/spotify_clone_v1/static/media/p7.d620193ad2acb1ee43af.jpg",
+    "static/media/p6.jpg": "/spotify_clone_v1/static/media/p6.bc8c6677bf75aa972716.jpg",
+    "static/media/p2.jpg": "/spotify_clone_v1/static/media/p2.55cb77ec2355aa50cf4f.jpg",
+    "static/media/logo.png": "/spotify_clone_v1/static/media/logo.f48fb565509bf23854a8.png",
+    "static/media/spot.png": "/spotify_clone_v1/static/media/spot.f48fb565509bf23854a8.png",
+    "index.html": "/spotify_clone_v1/index.html",
+    "main.c2cab247.css.map": "/spotify_clone_v1/static/css/main.c2cab247.css.map",
+    "main.352fc042.js.map": "/spotify_clone_v1/static/js/main.352fc042.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.352fc042.js"
+  ]
+}
