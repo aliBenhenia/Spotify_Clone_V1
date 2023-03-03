@@ -13,6 +13,11 @@ export const  Button = styled.button `
     &:hover{
         transform: translate(2px);
     }
+    position: relative;
+    .info
+    {
+       padding-bottom: 14px;
+    }
 `
 export const Head = styled.header `
     background : black;
@@ -48,7 +53,7 @@ export const Head = styled.header `
                 float: right;
             }
         }
-        img
+        #logoS
         {
             display: none;
         }

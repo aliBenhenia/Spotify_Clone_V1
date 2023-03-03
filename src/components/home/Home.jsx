@@ -1,7 +1,7 @@
 import React from 'react'
 import {useContext} from "react"
 import {HomePage} from "./styles.js"
-import {Mycontext} from "/Users/abenheni/Desktop/Spotify_Clone_V1/src/context/Provider.jsx";
+import {Mycontext} from "/goinfre/abenheni/Spotify_Clone_V1/src/context/Provider.jsx";
 import MusicCard from './homeComponents/MusicCard.jsx';
 import { data } from "./data/api";
 export default function Home({grid}) {

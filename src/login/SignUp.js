@@ -9,10 +9,11 @@ const Sign = styled.div `
    justify-content: center;
    width: 100%;
    padding-top: 200px;
+   overflow-x: hidden;
    img{
       margin: 0 auto;
       width: 100px;
-      margin-left : 160px;
+      margin-left : 50px;
    }
 `
 const Button = styled.button `
@@ -23,17 +24,17 @@ const Button = styled.button `
     border: 0;
     font-weight: bold;
     margin: 0 auto;
-    width: 400px;
+    /* width: 200px; */
     font-size: 1.5rem;
 `
-export default function SignUp() {
+export default function SignUp({googleAuth}) {
   return (
         <Sign>
             <div>
                 <div className='mb-5'>
                 <img src={spot} style={{maxWidth : "100px"}}/>
                 </div>
-                <Button>
+                <Button onClick={googleAuth}>
                     Login with google 
                     <img src={google} style={{width : "33px",marginLeft:"10px"}}/>
                 </Button>
