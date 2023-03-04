@@ -4,7 +4,7 @@
 
 - Responsive & mobile-friendly.
 - Easy to build and use.
-- Live Demo: https://frabjous-hamster-d9726e.netlify.app/
+- Live Demo: https:https://spotifyali.netlify.app/
 
 # Getting Started with Create React App
 
