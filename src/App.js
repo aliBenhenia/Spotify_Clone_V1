@@ -7,6 +7,7 @@ import { useState,useEffect } from "react";
 import { signInWithPopup} from "firebase/auth";
 import { auth,provider } from './login/config';
 import SignUp from "./login/SignUp";
+import Player from "./audio/Player"
 function App() {
   const [value,setValue] = useState(null);
   const [img,setImg] = useState(null);
@@ -18,7 +19,7 @@ function App() {
       setM(data.user.email);
       console.log(data);
           localStorage.setItem("name",data.user.displayName);
-          localStorage.setItem("img",data.user.setImg);
+          localStorage.setItem("img",data.user.photoURL);
           localStorage.setItem("email",data.user.email);
       })
     }
@@ -45,6 +46,7 @@ function Spotify({name,img,m}){
               <Nav grid = "col-md-2"/>
               <Home grid = "col-md-10"/>
           </div>
+          <Player />
       </ProviderContext>
      </div>
   );

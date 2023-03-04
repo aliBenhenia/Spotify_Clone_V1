@@ -3,7 +3,7 @@ import logo from "../images/logo.png"
 import { Head, Button } from './styles'
 import { useContext } from 'react'
 import {Mycontext} from "/goinfre/abenheni/Spotify_Clone_V1/src/context/Provider.jsx"
-import { Dropdown, Space } from 'antd';
+import { Dropdown } from 'antd';
 
 export default function Header({m,img,name}) {
   const {handleNavbarToggle} = useContext(Mycontext);

@@ -24,6 +24,7 @@ export default function Home({grid}) {
                             img = {item.img}
                             key = {item.key}
                             grid = "col-md-6  col-lg-3"
+                            song = {item.song}
                             />
                         );
                       })
@@ -43,18 +44,20 @@ export default function Home({grid}) {
                             img = {item.img}
                             key = {item.key}
                             grid = "col-md-6  col-lg-3"
+                            song = {item.song}
                             />
                         );
                       })
                     }
             </div>
+   
             <div className='row container mt-5'>
               <h1 className='col-6'>Mood</h1>
                 <a className='col-6' href='#'> 
                     <h4 style={{textAlign : "right"}}>see more</h4>
                 </a>
                     {
-                      data.data1.map(item=>{
+                      data.data3.map(item=>{
                         return (
                             <MusicCard
                             title = {item.title}
@@ -62,106 +65,14 @@ export default function Home({grid}) {
                             img = {item.img}
                             key = {item.key}
                             grid = "col-md-6  col-lg-3"
+                            song = {item.song}
                             />
                         );
                       })
                     }
             </div>
-            <div className='row container mt-5'>
-              <h1 className='col-6'>Popular new releases</h1>
-                <a className='col-6' href='#'> 
-                    <h4 style={{textAlign : "right"}}>see more</h4>
-                </a>
-                    {
-                      data.data2.map(item=>{
-                        return (
-                            <MusicCard
-                            title = {item.title}
-                            desc = {item.desc}
-                            img = {item.img}
-                            key = {item.key}
-                            grid = "col-md-6  col-lg-3"
-                            />
-                        );
-                      })
-                    }
-            </div>
-            <div className='row container mt-5'>
-              <h1 className='col-6'>Popular new releases</h1>
-                <a className='col-6' href='#'> 
-                    <h4 style={{textAlign : "right"}}>see more</h4>
-                </a>
-                    {
-                      data.data1.map(item=>{
-                        return (
-                            <MusicCard
-                            title = {item.title}
-                            desc = {item.desc}
-                            img = {item.img}
-                            key = {item.key}
-                            grid = "col-md-6  col-lg-3"
-                            />
-                        );
-                      })
-                    }
-            </div>
-            <div className='row container mt-5'>
-              <h1 className='col-6'>Popular new releases</h1>
-                <a className='col-6' href='#'> 
-                    <h4 style={{textAlign : "right"}}>see more</h4>
-                </a>
-                    {
-                      data.data2.map(item=>{
-                        return (
-                            <MusicCard
-                            title = {item.title}
-                            desc = {item.desc}
-                            img = {item.img}
-                            key = {item.key}
-                            grid = "col-md-6  col-lg-3"
-                            />
-                        );
-                      })
-                    }
-            </div>
-            <div className='row container mt-5'>
-              <h1 className='col-6'>Popular new releases</h1>
-                <a className='col-6' href='#'> 
-                    <h4 style={{textAlign : "right"}}>see more</h4>
-                </a>
-                    {
-                      data.data1.map(item=>{
-                        return (
-                            <MusicCard
-                            title = {item.title}
-                            desc = {item.desc}
-                            img = {item.img}
-                            key = {item.key}
-                            grid = "col-md-6  col-lg-3"
-                            />
-                        );
-                      })
-                    }
-            </div>
-            <div className='row container mt-5'>
-              <h1 className='col-6'>Popular new releases</h1>
-                <a className='col-6' href='#'> 
-                    <h4 style={{textAlign : "right"}}>see more</h4>
-                </a>
-                    {
-                      data.data2.map(item=>{
-                        return (
-                            <MusicCard
-                            title = {item.title}
-                            desc = {item.desc}
-                            img = {item.img}
-                            key = {item.key}
-                            grid = "col-md-6  col-lg-3"
-                            />
-                        );
-                      })
-                    }
-            </div>
+   
+
           </HomePage>
     </div>
   )
