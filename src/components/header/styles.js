@@ -24,9 +24,6 @@ export const Head = styled.header `
     color : #fff;
     padding : 20px;
     display: flex;
-    /* position : fixed;
-    width :100%;
-    top : 0; */
     z-index : 334;
     img{
         max-width : 100px;
@@ -38,6 +35,13 @@ export const Head = styled.header `
     .arrows span:hover
     {
         color: grey;
+    }
+    /* style={{color :"#fff",textAlign : "right",display : "inline-block"}} */
+    #name
+    {
+        color: #fff;
+        text-align: right;
+        display: inline-block;
     }
     @media (max-width: 768px) {
         .arrows{
@@ -52,6 +56,7 @@ export const Head = styled.header `
             {
                 float: right;
             }
+        
         }
         #logoS
         {
@@ -62,5 +67,9 @@ export const Head = styled.header `
             display: block;
             font-size: 4rem;
         }
+        #name {
+                display: none;
+                color: red;
+            }
   }
 `

@@ -15,7 +15,7 @@ export default function Header({m,img,name}) {
     {
       key: '1',
       label: (
-        <a href='/blank' target="_blank" rel="noopener noreferrer" >
+        <a href='#' rel="noopener noreferrer" >
          {m}
         </a>
       ),
@@ -26,7 +26,7 @@ export default function Header({m,img,name}) {
     <div>
         <Head className='row'>
             <div id='logo' className='col-2'>
-                <a href='logo' id='logoS'> 
+                <a href='#' id='logoS'> 
                   <img alt='logo' src= {logo}/>
                 </a>
                      <span
@@ -59,7 +59,7 @@ export default function Header({m,img,name}) {
                         borderRadius : "50px",
                         marginRight : "4px"
                       }}/>
-                      {/* <p style={{color :"#fff",textAlign : "right",display : "inline-block"}}>{name}</p> */}
+                      <p  id = "name">{name}</p>
                       </Button>
                     </Dropdown>
                </div>

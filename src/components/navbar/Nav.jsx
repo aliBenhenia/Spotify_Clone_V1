@@ -2,7 +2,7 @@ import React from 'react';
 import { BarElement } from './styles';
 import { useContext } from 'react';
 import { Mycontext } from '../../context/Provider';
-export default function Nav({grid}) {
+export default function Nav({grid,name}) {
   const {nav} = useContext(Mycontext);
   return (
    <div className = {grid}>
@@ -12,11 +12,11 @@ export default function Nav({grid}) {
         <BarElement>
            <ul>
                 <li>
-                    <a href='/home'>
+                    <a href='#'>
                          <span className= "material-symbols-outlined">
                              home
                          </span>
-                         <p>Ali Ben</p> 
+                         <p>{name}</p> 
                     </a>
                 </li>
            </ul>
@@ -24,7 +24,7 @@ export default function Nav({grid}) {
         <BarElement> 
            <ul>
                 <li>
-                    <a href='search'>
+                    <a href='#'>
                          <span className= "material-symbols-outlined">
                             search
                          </span>
@@ -36,7 +36,7 @@ export default function Nav({grid}) {
         <BarElement> 
            <ul>
                 <li>
-                    <a href='library'>
+                    <a href='#'>
                          <span className= "material-symbols-outlined">
                             queue_music
                          </span>
@@ -50,7 +50,7 @@ export default function Nav({grid}) {
         }} > 
            <ul>
                 <li>
-                    <a href='playlist'>
+                    <a href='#'>
                     <span className="material-symbols-outlined">
                           playlist_add_circle
                     </span>
@@ -62,7 +62,7 @@ export default function Nav({grid}) {
         <BarElement> 
            <ul>
                 <li>
-                    <a href='favorite'>
+                    <a href='#'>
                     <span className="material-symbols-outlined">
                         favorite
                     </span>
