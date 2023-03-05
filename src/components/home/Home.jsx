@@ -1,30 +1,27 @@
 import React from 'react'
-import {useContext} from "react"
 import {HomePage} from "./styles.js"
-import {Mycontext} from "/goinfre/abenheni/Spotify_Clone_V1/src/context/Provider.jsx";
 import MusicCard from './homeComponents/MusicCard.jsx';
 import { data } from "./data/api";
 export default function Home({grid}) {
-  const {nav} = useContext(Mycontext);
   console.log(data.data1);
   return (
     <div className = {grid}>
           <HomePage className='container'>
             <div className='row container mt-5'>
               <h1 className='col-6'>Spotify Playlists</h1>
-                <a className='col-6' href='#'> 
+                <a className='col-6' href='/more'> 
                     <h4 style={{textAlign : "right"}}>see more</h4>
                 </a>
                     {
-                      data.data1.map(item=>{ 
+                      data.data1.map((item,idx)=>{ 
                         return (
                             <MusicCard
                             title = {item.title}
                             desc = {item.desc}
                             img = {item.img}
-                            key = {item.key}
-                            grid = "col-md-6  col-lg-3"
-                            song = {item.song}
+                            keys = {item.key}
+                            grid = "col-md-6  col-lg-3" 
+                            song = {item.song} 
                             />
                         );
                       })
@@ -32,7 +29,7 @@ export default function Home({grid}) {
             </div>
             <div className='row container mt-5'>
               <h1 className='col-6'>focus</h1>
-                <a className='col-6' href='#'> 
+                <a className='col-6' href='/more'> 
                     <h4 style={{textAlign : "right"}}>see more</h4>
                 </a>
                     {
@@ -42,7 +39,7 @@ export default function Home({grid}) {
                             title = {item.title}
                             desc = {item.desc}
                             img = {item.img}
-                            key = {item.key}
+                            keys = {item.key}
                             grid = "col-md-6  col-lg-3"
                             song = {item.song}
                             />
@@ -53,7 +50,7 @@ export default function Home({grid}) {
    
             <div className='row container mt-5'>
               <h1 className='col-6'>Mood</h1>
-                <a className='col-6' href='#'> 
+                <a className='col-6' href='more'> 
                     <h4 style={{textAlign : "right"}}>see more</h4>
                 </a>
                     {
@@ -63,11 +60,11 @@ export default function Home({grid}) {
                             title = {item.title}
                             desc = {item.desc}
                             img = {item.img}
-                            key = {item.key}
+                            keys = {item.key}
                             grid = "col-md-6  col-lg-3"
                             song = {item.song}
                             />
-                        );
+                        );   
                       })
                     }
             </div>

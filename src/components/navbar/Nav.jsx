@@ -1,7 +1,7 @@
 import React from 'react';
 import { BarElement } from './styles';
 import { useContext } from 'react';
-import {Mycontext} from "/goinfre/abenheni/Spotify_Clone_V1/src/context/Provider.jsx";
+import { Mycontext } from '../../context/Provider';
 export default function Nav({grid}) {
   const {nav} = useContext(Mycontext);
   return (
@@ -12,7 +12,7 @@ export default function Nav({grid}) {
         <BarElement>
            <ul>
                 <li>
-                    <a href='#'>
+                    <a href='/home'>
                          <span className= "material-symbols-outlined">
                              home
                          </span>
@@ -24,7 +24,7 @@ export default function Nav({grid}) {
         <BarElement> 
            <ul>
                 <li>
-                    <a href='#'>
+                    <a href='search'>
                          <span className= "material-symbols-outlined">
                             search
                          </span>
@@ -36,7 +36,7 @@ export default function Nav({grid}) {
         <BarElement> 
            <ul>
                 <li>
-                    <a href='#'>
+                    <a href='library'>
                          <span className= "material-symbols-outlined">
                             queue_music
                          </span>
@@ -50,8 +50,8 @@ export default function Nav({grid}) {
         }} > 
            <ul>
                 <li>
-                    <a href='#'>
-                    <span class="material-symbols-outlined">
+                    <a href='playlist'>
+                    <span className="material-symbols-outlined">
                           playlist_add_circle
                     </span>
                          <p>Create playlist</p> 
@@ -62,8 +62,8 @@ export default function Nav({grid}) {
         <BarElement> 
            <ul>
                 <li>
-                    <a href='#'>
-                    <span class="material-symbols-outlined">
+                    <a href='favorite'>
+                    <span className="material-symbols-outlined">
                         favorite
                     </span>
                          <p>Favorite Songs</p> 

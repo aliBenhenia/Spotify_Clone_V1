@@ -1,15 +1,16 @@
 import React from 'react'
 import { CardStyle } from '../styles'
 import { useContext } from 'react';
-import {Mycontext} from "/goinfre/abenheni/Spotify_Clone_V1/src/context/Provider.jsx"
-export default function MusicCard({key,img,title,desc,grid,song}) {
+import { Mycontext } from '../../../context/Provider';
+export default function MusicCard({keys,img,title,desc,grid,song}) {
     const {hndlePlayer} = useContext(Mycontext);
+    console.log(keys)
   return (
-          <div key={key} className = {grid}>
+          <div key={keys} className = {grid}>
               <CardStyle>
                   <div className='play_icon'>
 
-                      <span onClick={()=>hndlePlayer({img,title,desc,song})} class="material-symbols-outlined">
+                      <span onClick={()=>hndlePlayer({img,title,desc,song})} className="material-symbols-outlined">
                         play_circle
                       </span>
                   </div>

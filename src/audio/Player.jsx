@@ -4,7 +4,7 @@ import 'react-h5-audio-player/lib/styles.css';
 import { action } from '@storybook/addon-actions';
 import styles from "./audio.module.css"
 import { useContext } from 'react';
-import {Mycontext} from "/goinfre/abenheni/Spotify_Clone_V1/src/context/Provider.jsx"
+import {Mycontext} from "../context/Provider.jsx"
 export default function Audio() {
   const {player} = useContext(Mycontext);
   console.log(player)

@@ -5,6 +5,7 @@
     width: 100%;
     color: #fff;
     background-color: #181818;
+    overflow-x: hidden;
 }
 .audio_container img{
     border-radius: 11%;

@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "../images/logo.png"
 import { Head, Button } from './styles'
 import { useContext } from 'react'
-import {Mycontext} from "/goinfre/abenheni/Spotify_Clone_V1/src/context/Provider.jsx"
+import { Mycontext } from '../../context/Provider'
 import { Dropdown } from 'antd';
 
 export default function Header({m,img,name}) {
@@ -15,7 +15,7 @@ export default function Header({m,img,name}) {
     {
       key: '1',
       label: (
-        <a target="_blank" rel="noopener noreferrer" >
+        <a href='/blank' target="_blank" rel="noopener noreferrer" >
          {m}
         </a>
       ),
@@ -26,12 +26,12 @@ export default function Header({m,img,name}) {
     <div>
         <Head className='row'>
             <div id='logo' className='col-2'>
-                <a href='#' id='logoS'> 
-                  <img src= {logo}/>
+                <a href='logo' id='logoS'> 
+                  <img alt='logo' src= {logo}/>
                 </a>
                      <span
                      onClick={handleNavbarToggle}
-                     class="material-symbols-outlined" id='icon'>
+                     className="material-symbols-outlined" id='icon'>
                            menu_open
                      </span>
             </div>
@@ -54,12 +54,12 @@ export default function Header({m,img,name}) {
                       placement="bottomLeft"
                     >
                       <Button dark className='info'> 
-                      <img  src={img} style ={{
+                      <img alt='google logo' src={img} style ={{
                         width : "44px",
                         borderRadius : "50px",
                         marginRight : "4px"
                       }}/>
-                      <p style={{color :"#fff",textAlign : "right",display : "inline-block"}}>{name}</p>
+                      {/* <p style={{color :"#fff",textAlign : "right",display : "inline-block"}}>{name}</p> */}
                       </Button>
                     </Dropdown>
                </div>
