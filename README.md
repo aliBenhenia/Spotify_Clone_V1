@@ -4,7 +4,7 @@
 
 - Responsive & mobile-friendly.
 - Easy to build and use.
-- Live Demo: https:https://spotifyali.netlify.app/
+- Live Demo:https://spotifycloneversion1.netlify.app/
 
 # Getting Started with Create React App
 
