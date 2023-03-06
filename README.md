@@ -7,12 +7,12 @@
 - Live Demo:https://spotifycloneversion1.netlify.app/
 
 ### made it with : 
-  -react js (functionel components | hooks)
-  -Styled components
-  -css modules
-  -antd design
-  -context Api
-  -firebase (google authentication)
+      - react js (functionel components | hooks)
+      - Styled components
+      - css modules
+      - antd design
+      - context Api
+      - firebase (google authentication)
 
 ### i will add in future : 
     - fetching api of real spotify paltform (learning express js for server side)
