@@ -1,23 +1,28 @@
 .audio_container
 {
-    position: absolute;
+    position: fixed;
     bottom: 0%;
     width: 100%;
     color: #fff;
     background-color: #181818;
     overflow-x: hidden;
+    z-index: 8888888;
 }
+
 .audio_container img{
     border-radius: 11%;
 }
+
 .audio_container aside{
     margin-left: 11px;
     display: inline-block;
     margin-top: 10px;
 }
+
 .audio_container h6{
     color: #BABABA;
 }
+
 .audio
 {
     background-color: #181818;

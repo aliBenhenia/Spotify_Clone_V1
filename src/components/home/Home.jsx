@@ -5,7 +5,7 @@ import { data } from "./data/api";
 export default function Home({grid}) {
   console.log(data.data1);
   return (
-    <div className = {grid}>
+    <div className = {grid} style={{marginBottom : "15px"}}>
           <HomePage className='container'>
             <div className='row container mt-5'>
               <h1 className='col-6'>Spotify Playlists</h1>
@@ -15,7 +15,7 @@ export default function Home({grid}) {
                     {
                       data.data1.map((item,idx)=>{ 
                         return (
-                            <MusicCard
+                            <MusicCard key={idx}
                             title = {item.title}
                             desc = {item.desc}
                             img = {item.img}
@@ -33,9 +33,9 @@ export default function Home({grid}) {
                     <h4 style={{textAlign : "right"}}>see more</h4>
                 </a>
                     {
-                      data.data2.map(item=>{
+                      data.data2.map((item,idx)=>{
                         return (
-                            <MusicCard
+                            <MusicCard  key={idx}
                             title = {item.title}
                             desc = {item.desc}
                             img = {item.img}
@@ -54,9 +54,9 @@ export default function Home({grid}) {
                     <h4 style={{textAlign : "right"}}>see more</h4>
                 </a>
                     {
-                      data.data3.map(item=>{
+                      data.data3.map((item, idx)=>{
                         return (
-                            <MusicCard
+                            <MusicCard  key={idx}
                             title = {item.title}
                             desc = {item.desc}
                             img = {item.img}

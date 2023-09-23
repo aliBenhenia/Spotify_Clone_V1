@@ -25,13 +25,13 @@ export default function Header({m,img,name}) {
   return (
     <div>
         <Head className='row'>
-            <div id='logo' className='col-2'>
-                <a href='#' id='logoS'> 
+            <div id='logo' className='col-2 '>
+                <a href='#' id='logoS' > 
                   <img alt='logo' src= {logo}/>
                 </a>
                      <span
                      onClick={handleNavbarToggle}
-                     className="material-symbols-outlined" id='icon'>
+                     className="material-symbols-outlined " id='icon'>
                            menu_open
                      </span>
             </div>
@@ -43,7 +43,7 @@ export default function Header({m,img,name}) {
                         chevron_right
                 </span>
             </div> 
-            <div id='registre'className='col-5'>
+            <div id='registre'className='col-5 '>
                <div>
                     <Button onClick={logout}>logout</Button> 
                    

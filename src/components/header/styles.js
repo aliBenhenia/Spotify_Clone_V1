@@ -8,7 +8,7 @@ export const  Button = styled.button `
     font-size: 15px;
     border-radius: 50px;
     float: right;
-    margin-left: 5px;
+    margin-left: 9px;
     transition: .4s all;
     &:hover{
         transform: translate(2px);
