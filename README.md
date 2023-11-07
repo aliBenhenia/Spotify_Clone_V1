@@ -15,7 +15,7 @@
       - firebase (google authentication)
 
 ### i will add in future :  
-    - fetching api of real spotify paltform (learning express js for server side)
+    - fetching api of real spotify paltform (learning express js for server side) 
     - logging with spotify account intstead of google
 
 
