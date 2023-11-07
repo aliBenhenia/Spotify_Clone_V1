@@ -4,7 +4,7 @@
 
 - Responsive & mobile-friendly.
 - Easy to build and use.
-- Live Demo:https://spotify-clone-v1-le3a.vercel.app/ 
+- Live Demo:https://spotify-clone-v1-le3a.vercel.app/  
 
 ### made it with :  
       - react js (functionel components | hooks)  
