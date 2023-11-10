@@ -12,7 +12,7 @@
       - css modules
       - antd design
       - context Api
-      - firebase (google authentication) 
+      - firebase (google authentication)  
 
 ### i will add in future :  
     - fetching api of real spotify paltform (learning express js for server side)  
