@@ -8,7 +8,7 @@
  
 ### made it with :    
       - react js (functionel components | hooks)       
-      - Styled components 
+      - Styled components  
       - css modules
       - antd design
       - context Api
