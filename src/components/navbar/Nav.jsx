@@ -54,7 +54,7 @@ export default function Nav({grid,name}) {
                     <span className="material-symbols-outlined">
                           playlist_add_circle
                     </span>
-                         <p>Create playlist</p> 
+                         <p>Create playlist now</p> 
                     </a>
                 </li>
            </ul>
