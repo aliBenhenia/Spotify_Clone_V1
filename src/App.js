@@ -44,7 +44,7 @@ function Spotify({name,img,m}){
           <Header name = {name} img = {img} m = {m} />
           <div className = "row">
               <Nav name = {name} grid = "col-md-2"/>
-             <h2> modify</h2>
+            
               <Home grid = "col-md-10"/>
           </div>
           <Player />
