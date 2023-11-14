@@ -28,7 +28,7 @@ export default function Nav({grid,name}) {
                          <span className= "material-symbols-outlined">
                             search
                          </span>
-                         <p>Search</p> 
+                         <p>Search bar </p> 
                     </a>
                 </li>
            </ul>
