@@ -10,7 +10,7 @@
       - react js (functionel components | hooks)       
       - Styled components  
       - css modules
-      - antd design
+      - antd design 
       - context Api
       - firebase (google authentication)  
  
