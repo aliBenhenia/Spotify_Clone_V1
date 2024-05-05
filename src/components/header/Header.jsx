@@ -45,7 +45,7 @@ export default function Header({m,img,name}) {
             </div> 
             <div id='registre'className='col-5 '>
                <div>
-                    <Button onClick={logout}>logout</Button> 
+                    <Button onClick={logout}>log</Button> 
                    
                     <Dropdown
                       menu={{
